@@ -12,8 +12,4 @@ def lineNotifyMessage(token, msg):
     return r.status_code
 
 
-if __name__ == '__main__':
-  message = '[LINE Notify] Hello World' # 要傳送的訊息內容
-  token = 'K3QsmFxxbSvUzHkUEiIrjYj6mWHzgkWNCVPy3N7RCeB' # 權杖值
-
-  lineNotifyMessage(token, message)
+lineNotifyMessage('K3QsmFxxbSvUzHkUEiIrjYj6mWHzgkWNCVPy3N7RCeB', 'Hello World')
