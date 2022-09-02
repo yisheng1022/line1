@@ -8,7 +8,7 @@ import pandas as pd
 
 def Get_50(key_list,first = True,run_all_day = True):
 	while run_all_day:
-		headers = {"Authorization": "Bearer " + "ciLJ9xlsXP3Vj2AVGfyGecGmjkTMIy5IrSUUeGFcMR1","Content-Type": "application/x-www-form-urlencoded"}
+		headers = {"Authorization": "Bearer " + "K3QsmFxxbSvUzHkUEiIrjYj6mWHzgkWNCVPy3N7RCeB","Content-Type": "application/x-www-form-urlencoded"}
 		art_title = []; art_urll = []; art_exc = []
 		old_id = ""
 		if first:
